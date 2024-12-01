@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset styles for consistency */
 body, h1, p, ul, li {
   margin: 0;
@@ -44,3 +45,51 @@ body {
 .links a:hover {
   color: #555;
 }
+=======
+/* Reset styles for consistency */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Link styling */
+.links {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  display: inline-block;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #555;
+}
+>>>>>>> 484f676b0056b8ffbb728eabf295e7f773662bb9
